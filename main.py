@@ -41,6 +41,9 @@ class MyCalculator:
         self.button = tk.Button(self.root, text="0", width=6, height=3)
         self.button.place(x=80, y=320)
 
+        self.button = tk.Button(self.root, text=".", width=6, height=3)
+        self.button.place(x=140, y=320)
+
         self.button = tk.Button(self.root, text="/", width=6, height=3)
         self.button.place(x=200, y=80)
 
@@ -56,6 +59,9 @@ class MyCalculator:
         self.button = tk.Button(self.root, text="=", width=6, height=3)
         self.button.place(x=200, y=320)
 
+        self.button = tk.Entry(self.root, width=30,)
+        self.button.place(x=0, y=100)
+       
         self.root.mainloop()
 
 MyCalculator() 
